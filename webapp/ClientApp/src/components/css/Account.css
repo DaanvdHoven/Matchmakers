@@ -1,0 +1,17 @@
+.inner-container {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    min-height: 500px;
+    margin-top: 20px;
+}
+
+.accountcontainer {
+    min-height: 500px;
+}
+
+.titlecontent {
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 10px;
+}

@@ -1,0 +1,58 @@
+﻿.content {
+    text-align: center;
+}
+.content_block {
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 55%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    flex-wrap: wrap;
+}
+.content_block p {
+    float: left;
+    margin-left: 5px;
+}
+
+    .content_block h1 {
+        margin-left: 5px;
+    }
+
+    .content_block div.p-2 {
+        border: 1px solid black;
+        border-radius: 25px;
+    }
+
+    .content_block .p-2 {
+        align-items: flex-start;
+        margin:4px;
+    }
+    
+
+    .content_block .row {
+        flex-flow: nowrap;
+        margin-left: 5px;
+    }
+
+
+
+
+
+.d-flex {
+    align-items: flex-start;
+}
+
+button {
+    color: black;
+    padding: 12px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
